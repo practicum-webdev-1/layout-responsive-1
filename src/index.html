@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup Form</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Castoro&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Welcome back</h1>
+      <p>
+        Let’s be honest, it’s hard to fit working out into our busy schedule.
+        With Trainerz you do less work and see more results.
+      </p>
+      <img src="img/image.png" alt="Woman working out" />
+      <form>
+        <div class="form-input">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Name" />
+        </div>
+        <div class="form-input">
+          <label for="email">Email address</label>
+          <input type="text" id="email" placeholder="Enter Email Address" />
+        </div>
+        <div class="form-input">
+          <label for="password">Password</label>
+          <input type="text" id="password" placeholder="Enter Password" />
+        </div>
+        <div class="form-input">
+          <label for="confirm">Confirm Password</label>
+          <input
+            type="text"
+            id="confirm"
+            placeholder="Enter Confirm Password"
+          />
+        </div>
+
+        <button class="btn-submit" type="submit">Sign up</button>
+      </form>
+    </main>
+  </body>
 </html>
